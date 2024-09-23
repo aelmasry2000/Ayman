@@ -1,0 +1,36 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Uploaded Manuscript"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/canvas/1",
+      "type": "Canvas",
+      "height": 1000,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://example.org/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/annotation/1",
+              "type": "Annotation",
+              "body": {
+                "id": "https://example.org/uploaded_image.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://example.org/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

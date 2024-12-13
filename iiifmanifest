@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://raw.githubusercontent.com/aelmasry2000/Ayman/master/iiif_manifest.json",
   "type": "Manifest",
-  "label": { "en": ["Example Manifest"] },
+  "label": { "Arabic": ["ورقة من مخطوط غير معروف عنوانه، يتناول موضوع اللقلك والأبراج"] },
   "items": [
     {
       "id": "https://example.org/canvas/1",

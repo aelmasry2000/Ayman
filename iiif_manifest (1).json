@@ -1,0 +1,180 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://raw.githubusercontent.com/aelmasry2000/Ayman/master/iiif_manifest.json",
+    "type": "Manifest",
+    "label": {
+        "ar": [
+            "صفحة من مخطوط غير معروف العنوان."
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "en": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Glindoni, Henry Gillard, 1852-1913"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Date"
+                ]
+            },
+            "value": {
+                "en": [
+                    "1800-1899"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Physical Description"
+                ]
+            },
+            "value": {
+                "en": [
+                    "محطوط واحد : رسومات  ; h152 x 244.4 cm"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Reference"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Wellcome Library no. 47369i"
+                ]
+            }
+        }
+    ],
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "en": [
+                "Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+            ]
+        }
+    },
+    "items": [
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0029-metadata-anywhere/canvas/p1",
+            "type": "Canvas",
+            "label": {
+                "en": [
+                    "الورقة لها لون يتسم بطبيعة المادة التى صنعت منها"
+                ]
+            },
+            "height": 1271,
+            "width": 2000,
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Description"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "الخط هو خط .. ويوجد هوامش وحواشى تتصل بالنص وتشرحه."
+                        ]
+                    }
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://iiif.io/api/cookbook/recipe/0029-metadata-anywhere/page/p1/1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://iiif.io/api/cookbook/recipe/0029-metadata-anywhere/annotation/p0001-image",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://raw.githubusercontent.com/aelmasry2000/Ayman/master/Brith-Library-add-ms-7474_0012_web_1%20(1).jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1271,
+                                "width": 2000,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural",
+                                        "profile": "level1",
+                                        "type": "ImageService3"
+                                    }
+                                ]
+                            },
+                            "target": "https://iiif.io/api/cookbook/recipe/0029-metadata-anywhere/canvas/p1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0029-metadata-anywhere/canvas/p2",
+            "type": "Canvas",
+            "label": {
+                "en": [
+                    "X-ray view of painting"
+                ]
+            },
+            "height": 1271,
+            "width": 2000,
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Description"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "أيضاً فهناك العديد من الأجزاء المتئاكلة فى الصفحة نظراً ل...."
+                        ]
+                    }
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://iiif.io/api/cookbook/recipe/0029-metadata-anywhere/page/p2/1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://iiif.io/api/cookbook/recipe/0029-metadata-anywhere/annotation/p0002-image",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://raw.githubusercontent.com/aelmasry2000/Ayman/master/Brith-Library-add-ms-7474_0012_web_1%20(1).jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1271,
+                                "width": 2000,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray",
+                                        "profile": "level1",
+                                        "type": "ImageService3"
+                                    }
+                                ]
+                            },
+                            "target": "https://iiif.io/api/cookbook/recipe/0029-metadata-anywhere/canvas/p2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

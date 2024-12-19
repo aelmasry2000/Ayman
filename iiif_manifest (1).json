@@ -117,7 +117,7 @@
                                     }
                                 ]
                             },
-                            "target": "https://iiif.io/api/cookbook/recipe/0029-metadata-anywhere/canvas/p1"
+                            "target": "https://ncsu-libraries.github.io/annona/tools/#/display?url=https%3A%2F%2Fraw.githubusercontent.com%2Faelmasry2000%2FAyman%2Fmaster%2Fiiif_manifest.json&viewtype=iiif-storyboard&manifesturl=&settings=%7B%22zoom%22%3A%22-696,-4.8960835385969403e-14,1833,650.0000000000001%22,%22fullpage%22%3Atrue%7D"
                         }
                     ]
                 }
